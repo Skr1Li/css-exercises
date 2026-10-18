@@ -1,1 +1,10 @@
-/* Add CSS Styling */
+/* Тільки ті елементи p, які є нащадками елемента div, 
+повинні мати жовтий фон (background-color: yellow;), 
+червоний текст (color: red;), розмір шрифту 20px (font-size: 20px;) 
+та вирівнювання по центру (text-align: center;). */
+
+.container .text{
+    background-color: rgb(240, 244, 163);
+    color: red;
+    text-align: center;
+}
