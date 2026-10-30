@@ -26,7 +26,7 @@ input {
 }
 a{
   text-decoration: none;
-  color: rebeccapurple;
+  color: #666;
 }
 
 ul {
@@ -49,13 +49,13 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex: 1;
   gap: 16px;
 }
-button, .buttons{
-  padding: 7px;
+button{
+  padding: 8px 16px
 }
 body{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
